@@ -1,4 +1,4 @@
-module demux_2_1( 
+module demux_1_2( 
   input sel,
   input i,
   output y0, y1
