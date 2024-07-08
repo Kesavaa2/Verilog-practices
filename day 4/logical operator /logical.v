@@ -1,4 +1,4 @@
-module logical_operators(
+module logical(
   input [3:0]a,b,c,d,
   output reg x,y);
 
