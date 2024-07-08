@@ -1,4 +1,4 @@
-module logical(
+module logical2(
   input a,b,c,d,
   output reg x1,x2,x3);
 
