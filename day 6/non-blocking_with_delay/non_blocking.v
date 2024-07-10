@@ -1,4 +1,4 @@
-module blocking;
+module non_blocking;
   reg[7:0]a,b,c,d,e;
   initial begin
     a<=8'hDA;
