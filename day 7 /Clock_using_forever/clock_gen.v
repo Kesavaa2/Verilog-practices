@@ -1,4 +1,4 @@
-module clock_gen(
+module clk_generation(
  output reg clk);
   
 initial begin
@@ -9,9 +9,8 @@ initial begin
   end
   
   initial begin
-    repeat(5) begin
+    forever
       #2 clk=~clk;
-  end
   end
   
   initial begin
