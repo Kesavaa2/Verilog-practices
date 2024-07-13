@@ -3,7 +3,7 @@ reg clk,rst;
 reg s_in;
 wire p_out;
 
-siso SISO(clk,rst,s_in,p_out);
+rs_siso SISO(clk,rst,s_in,p_out);
 
 always #5 clk=~clk;
 initial begin
