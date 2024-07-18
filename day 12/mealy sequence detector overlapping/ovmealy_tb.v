@@ -4,7 +4,7 @@ wire out;
 
 parameter delay = 1;
 
-ovmealy_1010 OMLY(clk,rst,a,out);
+ovmealy OMLY(clk,rst,a,out);
 always #4 clk=~clk;
 initial begin
 clk=0;rst=0; a=1;
